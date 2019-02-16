@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3a3235d-ec02-46ca-ad97-6f753b3ac11c">
+  <name>НумераторДокументов1</name>
+  <comment></comment>
+  <numberLength>6</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<ExternalDataSource uuid="66f4cffb-95ae-4ade-be83-86d6a2054351">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceManager.BalanceDB" category="Manager">
+				<xr:TypeId>04fa05e5-e974-402e-a6b0-ece342252544</xr:TypeId>
+				<xr:ValueId>02003423-0079-434f-b4cd-f62c87817ab9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTablesManager.BalanceDB" category="TablesManager">
+				<xr:TypeId>6e54670a-adc8-4d31-a7fa-c2ed16292799</xr:TypeId>
+				<xr:ValueId>b3e92ffd-398f-4663-a3e5-07f54f35f078</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceCubesManager.BalanceDB" category="CubesManager">
+				<xr:TypeId>2eb0fab9-41f4-4c3b-a0e0-38d802cfaf32</xr:TypeId>
+				<xr:ValueId>94cd728e-d873-45e5-9f0c-e2141d084bb7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>BalanceDB</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Balance DB</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Table>www_balans_db_accessadmin_AntonTEST</Table>
+			<Table>www_balans_dbo_Okno</Table>
+			<Table>www_balans_dbo_View_1</Table>
+			<Table>www_balans_dbo_arx_exe</Table>
+			<Table>www_balans_dbo_baza</Table>
+			<Table>www_balans_dbo_baza_bilet</Table>
+			<Table>www_balans_dbo_buf_file</Table>
+			<Table>www_balans_dbo_differ</Table>
+			<Table>www_balans_dbo_dok</Table>
+			<Table>www_balans_dbo_dok_rela</Table>
+			<Table>www_balans_dbo_ed_izm</Table>
+			<Table>www_balans_dbo_fond_num</Table>
+			<Table>www_balans_dbo_graf</Table>
+			<Table>www_balans_dbo_graf_ost</Table>
+			<Table>www_balans_dbo_graf_prov</Table>
+			<Table>www_balans_dbo_help</Table>
+			<Table>www_balans_dbo_internet</Table>
+			<Table>www_balans_dbo_kontakt</Table>
+			<Table>www_balans_dbo_kurs</Table>
+			<Table>www_balans_dbo_map_podr</Table>
+			<Table>www_balans_dbo_map_podr_user</Table>
+			<Table>www_balans_dbo_protokol_baza</Table>
+			<Table>www_balans_dbo_shpz</Table>
+			<Table>www_balans_dbo_swod</Table>
+			<Table>www_balans_dbo_swod_new</Table>
+			<Table>www_balans_dbo_test</Table>
+			<Table>www_balans_dbo_transport</Table>
+			<Table>www_balans_dbo_user_</Table>
+			<Table>www_balans_dbo_v_dok</Table>
+			<Table>www_balans_dbo_zad</Table>
+			<Table>www_balans_dbo_zakaz</Table>
+			<Table>www_balans_dbo_zakaz_1</Table>
+			<Function uuid="df98fbd6-2fc9-4dfe-bfe5-0c9accfb63c2">
+				<Properties>
+					<Name>dbo_insert_Provodka</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.insert_Provodka(&amp;1, &amp;2, &amp;3, &amp;4, &amp;5, &amp;6, &amp;7, &amp;8, &amp;9, &amp;10)      
+
+
+
+
+</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="bf3d13c8-b92e-4b35-bc79-9d6fd0f1a593">
+				<Properties>
+					<Name>dbo_update_provodka</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.update_provodka(&amp;1, &amp;2, &amp;3, &amp;4, &amp;5, &amp;6, &amp;7, &amp;8, &amp;9, &amp;10)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="a5713564-ede1-4520-8b16-d2403c33fb49">
+				<Properties>
+					<Name>dbo_max_kod</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.max_kod</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="a39df204-47a8-4e7f-bf60-b21de1c96906">
+				<Properties>
+					<Name>dbo_Delete_provodka</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.Delete_provodka(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="f5dc51cf-5b9f-49f5-8f1d-612fdbf11d08">
+				<Properties>
+					<Name>dbo_Insert_fond</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.Insert_fond(&amp;1, &amp;2, &amp;3, &amp;4, &amp;5, &amp;6, &amp;7, &amp;8, &amp;9, &amp;10, &amp;11)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+		</ChildObjects>
+	</ExternalDataSource>
+</MetaDataObject>

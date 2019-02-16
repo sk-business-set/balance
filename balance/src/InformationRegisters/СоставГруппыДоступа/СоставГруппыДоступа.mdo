@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39d9746d-9096-44ff-ad2b-1c46802b5881">
+  <producedTypes>
+    <selectionType typeId="90e63829-8dd7-447e-a115-8a5dd81e237b" valueTypeId="3069b9b2-b444-48a5-992c-add96c22ec62"/>
+    <listType typeId="edccd003-2e1a-4b0e-a357-7387babb9b5b" valueTypeId="de3d5530-249c-4fe3-8259-77c5a8377a81"/>
+    <managerType typeId="4538fd3e-f931-44f2-8d02-6cbf82ea0d71" valueTypeId="acf9cfcf-0cda-4d64-8f95-3100998698a0"/>
+    <recordSetType typeId="3ba6b8be-e04c-4a60-b962-948f23db7b02" valueTypeId="d14ece97-bfe8-4d01-9ebc-7192f5a1939f"/>
+    <recordKeyType typeId="f3fefd3b-4549-4499-89a2-8247f1d8cf41" valueTypeId="5bb9fd54-44ce-479e-b114-7e5e4970feab"/>
+    <recordType typeId="94d136b0-ebe5-43b6-bfa8-f8189afea9e4" valueTypeId="aefb8028-3b74-4146-b692-89f9d88a86b4"/>
+    <recordManagerType typeId="fd1515a6-fb18-4d88-8a06-2bc74153ef89" valueTypeId="4556e70c-d90d-4f6f-81bf-3e5c4bcb8488"/>
+  </producedTypes>
+  <name>СоставГруппыДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав группы доступа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="2be64759-d441-4eda-8903-bf6d10699889">
+    <name>ГруппаДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа ДО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыДоступаОформления</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ГруппаОформления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c37f94ed-e8c7-460d-b1e6-7f9de95c09e6">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

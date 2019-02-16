@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cd42950-f9d5-4d45-a67f-b253655e1770">
+  <producedTypes>
+    <objectType typeId="3379a930-7b9d-432d-94dd-9cd1674f2466" valueTypeId="20bc4a79-a445-4631-9e32-082d7c22f355"/>
+    <refType typeId="a4f62fd0-41a0-4783-b469-0623f311db42" valueTypeId="1be4e633-e9a2-4dc2-a99f-f40f8795b1fb"/>
+    <selectionType typeId="21d1f286-8470-4368-89ee-80bc1d910e31" valueTypeId="4d65ebcd-41a6-49ae-90af-2dfa27a75fd2"/>
+    <listType typeId="f326ae68-9532-4bab-a4b9-d4b73d4b59b2" valueTypeId="8d566985-b129-4a25-b5c1-ef834c24546a"/>
+    <managerType typeId="1b6ac3c7-5cbb-41c2-8fb0-0190dca8dae7" valueTypeId="4305f5b1-87ec-4333-a552-c68341945ed0"/>
+    <containerType typeId="dcc4db9b-4f4c-4eea-a038-a527887a8a76" valueTypeId="ffb19db3-151e-4f5f-a932-1ec2b4a0e840"/>
+  </producedTypes>
+  <name>ВидыСубконто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Наименование</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Код</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Код</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>     </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+    <pages>
+      <lang>uk</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид субконто</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>uk</key>
+    <value>Вид субконто</value>
+  </objectPresentation>
+  <type>
+    <types>CatalogRef.СтатьиДвижения</types>
+    <types>CatalogRef.Подразделения</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4024e328-6d02-428e-8819-a7d6eeefb4f4">
+      <name>АналитикаВнутрикорпоративныхРасчетов</name>
+      <description>Аналитика внутрикорпоративных расчетов</description>
+      <code>00021</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="74dbb676-e845-4332-9195-1bd45a0829d7">
+      <name>АналитикаВозвратов</name>
+      <description>Аналитика возвратов</description>
+      <code>00019</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="c5384e7b-65f8-4c02-b34a-e778800aa9ff">
+      <name>АналитикаПроизводственныхЗатрат</name>
+      <description>Аналитика производственных затрат</description>
+      <code>00022</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="a16b4e17-29d5-4a0d-b9b4-a37c5f518209">
+      <name>АналитикаПрочейРеализации</name>
+      <description>Аналитика прочей реализации</description>
+      <code>00020</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="d64af340-f6ee-483b-a7f2-f31410867f8a">
+      <name>ВидыБизнеса</name>
+      <description>Виды бизнеса</description>
+      <code>00013</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="f74eb4f6-7f4d-4d64-9882-471e3e372503">
+      <name>ВидыРасходовПодразделений</name>
+      <description>Виды расходов подразделений</description>
+      <code>00016</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="0c351473-a213-4ff0-b551-d5c57ee4e648">
+      <name>Затраты</name>
+      <description>Затраты</description>
+      <code>00018</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="1955a06c-7c4e-4b61-acd2-dea62735a844">
+      <name>Имущество</name>
+      <description>Имущество</description>
+      <code>00007</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="ac345661-35a4-48b8-a104-a2bab2306dc6">
+      <name>Кассы</name>
+      <description>Кассы</description>
+      <code>00008</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="91044194-a20f-4db6-a602-beb6006bb59c">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>00002</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="a0393485-f56e-44d4-b142-3a9c40056259">
+      <name>НакладныеРасходы</name>
+      <description>Накладные расходы</description>
+      <code>00006</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="aad4ad2c-60ee-43dd-b34f-272f4a381ba5">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>00010</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="bb8911ec-748b-44ae-a48c-8e43802aa31d">
+      <name>Партии</name>
+      <description>Партии</description>
+      <code>00012</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="f5999530-03c2-4cca-b09e-bf64ed67fe78">
+      <name>Подразделения</name>
+      <description>Подразделения</description>
+      <code>00023</code>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+    </items>
+    <items id="fa9a0497-101e-4b7b-a786-ee60e3f2c2c0">
+      <name>ПрочиеПрибылиУбытки</name>
+      <description>Прочие прибыли (убытки)</description>
+      <code>00011</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="f1a0c935-5613-45f5-825f-9cc40def4186">
+      <name>РасчетныеСчета</name>
+      <description>Расчетные счета</description>
+      <code>00004</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="6d21e032-0eb8-4035-b52c-85c102a6b486">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code>00015</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="4bc5aa6c-de1a-4dae-8729-cdd1c257ee9c">
+      <name>Сотрудники</name>
+      <description>Сотрудники</description>
+      <code>00005</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="98f1769c-c2a4-4249-a8f8-67339c0b9a22">
+      <name>СтатьиДвиженияДенег</name>
+      <description>Статьи движения денег</description>
+      <code>00001</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+    <items id="09daccb6-e74e-45bf-b261-2780545063b6">
+      <name>ЦенныеБумаги</name>
+      <description>Ценные бумаги</description>
+      <code>00009</code>
+      <type>
+        <types>CatalogRef.СтатьиДвижения</types>
+      </type>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

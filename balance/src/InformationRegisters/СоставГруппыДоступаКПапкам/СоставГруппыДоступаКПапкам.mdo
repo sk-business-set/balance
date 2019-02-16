@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="080d010d-a746-4b01-892f-4f73126e6eac">
+  <producedTypes>
+    <selectionType typeId="2e0c4e6c-4453-4713-9582-007c3f2547be" valueTypeId="1369931d-4fd3-4e0f-baa3-4de1e7dabc82"/>
+    <listType typeId="568fe18f-fa29-4d76-b9bb-da35a8cd7881" valueTypeId="1d3b83e6-5f10-4f80-96d5-751dfa738105"/>
+    <managerType typeId="563a90d5-87be-46dc-92f4-dfcabcfdcf57" valueTypeId="12cf7cf2-190f-4b5b-a23e-4527a09bf194"/>
+    <recordSetType typeId="6a45e5a1-94cb-4357-98a5-b4513abd231b" valueTypeId="f9ad2fe5-085b-45bc-8b42-d76245b5c487"/>
+    <recordKeyType typeId="ddd7ffb6-682b-4e65-9072-cf7f35cac2ae" valueTypeId="639841a0-5150-4502-90fa-e1767fcc9f24"/>
+    <recordType typeId="204a3d44-b173-4724-8e08-5ab6a1e498c6" valueTypeId="40e076a8-1dc5-40a3-91d2-0747767c23a2"/>
+    <recordManagerType typeId="e61ac3b9-14ca-4864-8e49-e595ac4446ec" valueTypeId="e9764e7f-25da-4cf6-92f1-d6eb31f89152"/>
+  </producedTypes>
+  <name>СоставГруппыДоступаКПапкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав группы доступа к папкам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="eddde6f9-aa05-4e58-ac49-4f9d041e6de6">
+    <name>ГруппаДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа ДО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыДоступаОформления</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ГруппаОформления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e280586-9634-43c0-92e8-baf678edf279">
+    <name>СтатьяДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья движения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиДвижения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

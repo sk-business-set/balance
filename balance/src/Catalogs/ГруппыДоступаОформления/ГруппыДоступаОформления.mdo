@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c70500be-f031-4744-8455-2797c3df23cd">
+  <producedTypes>
+    <objectType typeId="3b44f473-ddbb-4895-ab4f-c76b72d4f875" valueTypeId="4ef52e0e-76ef-499d-8ad1-915fe3c3cade"/>
+    <refType typeId="df960512-4998-4456-9ab2-d2065b97cd5e" valueTypeId="052df300-7e1f-4abe-91e5-b6ae21fc7c9a"/>
+    <selectionType typeId="eb8f8b3d-64fa-4f9a-b189-93369da7009a" valueTypeId="70bd9b0c-5491-473b-b056-60d9b8006533"/>
+    <listType typeId="18002092-7ff7-4d77-b423-0832cd76e44a" valueTypeId="a90221b2-af75-4c8c-99b1-b9f95d8a48e2"/>
+    <managerType typeId="87117fe6-cc19-40cc-8480-ccd5b2cc95b2" valueTypeId="80e91595-e7d9-49ae-ab03-28eb11dcebc3"/>
+  </producedTypes>
+  <name>ГруппыДоступаОформления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа оформления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыДоступаОформления.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыДоступаОформления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыДоступаОформления.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ГруппыДоступаОформления.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="2c63b2c0-6ba8-4d14-84d8-2fd15bee5ed5">
+    <name>ГруппаОформления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа оформления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a9aed4d-0564-48c4-b1ea-354b46dfdf73">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ac30e131-b5f0-4a41-9eec-5607289b08c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2038acc0-e77a-424c-9b63-696c46d8f3bf">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

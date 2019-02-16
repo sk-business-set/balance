@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d377dbc-a8c3-4267-a463-f041dcaf59b0">
+  <producedTypes>
+    <objectType typeId="eea4149f-253b-4231-8dd8-a5b2b24ba2b4" valueTypeId="05efba4f-b871-4aa5-9b13-fba6d03ce841"/>
+    <managerType typeId="3e5b53b1-79c0-4648-bf48-bc4bf8e32e08" valueTypeId="dcc1ba8e-8aeb-4eff-85b7-29dede5290f6"/>
+  </producedTypes>
+  <name>УстановитьНастройкиПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить настройки пользователя</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановитьНастройкиПользователя.Form.Форма</defaultForm>
+  <attributes uuid="8942bc3d-0de0-4198-8b77-31562ff36b60">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки пользователя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="240c8536-5394-46f3-9b23-2b79ddc8d3cd">
+    <name>Фильтр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2d241a95-6f58-4cb4-8181-332c863c8bb3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

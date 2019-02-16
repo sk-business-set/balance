@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d2d701c-d352-4b8e-826f-bd72d650a58e">
+  <name>Движения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Движения</content>
+  <content>InformationRegister.СозданныеБыстрыеДвижения</content>
+  <content>Report.Расшифровка_движения</content>
+</mdclass:Subsystem>

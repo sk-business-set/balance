@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be576d9c-8858-4c38-b4c9-e0bec1b5084b">
+  <name>Баланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

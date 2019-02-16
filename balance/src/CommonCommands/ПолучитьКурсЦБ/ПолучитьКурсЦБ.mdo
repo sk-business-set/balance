@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c27dd46-245c-4482-acdf-d2637eaa68d7">
+  <name>ПолучитьКурсЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить курс с сайта ЦБ</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Валюты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

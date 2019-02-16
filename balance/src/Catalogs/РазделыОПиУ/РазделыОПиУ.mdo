@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c803cba4-efda-4966-95e3-1345541ff35a">
+  <producedTypes>
+    <objectType typeId="474708de-b5b4-4bf0-bff3-c88a055d37b9" valueTypeId="eb28c8fa-ae22-42d7-96be-f7387861e463"/>
+    <refType typeId="f8492bd7-6202-47a7-b3cd-44773f486a93" valueTypeId="02aa73e8-9929-45f6-81a9-588d0ef1278f"/>
+    <selectionType typeId="7f04930b-bf53-4087-9584-d8964811230b" valueTypeId="3c81cdef-e548-4c60-aa72-1a1ebfe1a5ae"/>
+    <listType typeId="e09e745e-1709-4904-a80c-0b72aeee8b99" valueTypeId="4cc0ae2e-c9c5-4ec5-a581-a3944bf4e66d"/>
+    <managerType typeId="b940c0f8-56b5-4335-be7c-a8f192d47b76" valueTypeId="a8bcbf2e-3bc5-4646-a213-f8fc0081d9f2"/>
+  </producedTypes>
+  <name>РазделыОПиУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы ОПиУ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РазделыОПиУ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РазделыОПиУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="82221e23-ff7a-4f10-a953-8e0fdebd84b3">
+      <name>ОбщиеПродажи</name>
+      <description>1. Общие продажи</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e8f25ad8-63ef-4ea3-acb8-0ce851079cbf">
+      <name>Себестоимость</name>
+      <description>2. Себестоимость</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="532db280-3958-452f-96a2-8f0520eebfcc">
+      <name>АдминистративныеРасходы</name>
+      <description>3. Административные расходы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="c94aecdc-9b7d-4c2d-b6dc-83e5c2742f1d">
+      <name>КоммерческиеМаркетинговыеРасходы</name>
+      <description>4. Комм/маркет расходы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="494bb94c-9d0f-40ce-aa49-8c23d6ada9a9">
+      <name>Налоги</name>
+      <description>5. Налоги</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="608321fa-e102-4ff5-8306-d337aab5fa5a">
+      <name>ПрочиеДоходыИРасходыВнереализационные</name>
+      <description>6. Прочие Доходы и Расходы (Внереализационные)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

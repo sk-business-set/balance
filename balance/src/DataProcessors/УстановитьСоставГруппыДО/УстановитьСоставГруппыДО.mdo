@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97046c60-7ddc-4406-aaf1-768cd78bc88d">
+  <producedTypes>
+    <objectType typeId="b8b3a96c-02df-4da4-8980-c2f384796a08" valueTypeId="584bbfa3-dbcf-4d6d-a669-c0be79407fde"/>
+    <managerType typeId="faa6e6d8-2ffd-4d14-adb2-c882ed452741" valueTypeId="b60e460a-0f50-43c4-9661-ff9e4d022935"/>
+  </producedTypes>
+  <name>УстановитьСоставГруппыДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить состав группы доступа или оформления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановитьСоставГруппыДО.Form.Форма</defaultForm>
+  <attributes uuid="c5f2c690-36af-4e75-a350-7ba6665337d7">
+    <name>ГруппаДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступа или оформления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыДоступаОформления</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d8faead6-c3c4-42fa-83ba-73e04194ac75">
+    <name>Фильтр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильтр</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="cdb54b4a-5e7f-4442-a0a7-348ae8922964">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc39e696-038a-4248-8eb4-8eb71fa47553">
+  <name>ОтправкаСтатистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка статистики</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.Статистика.ОтправкаСтатистикиЕмайл</methodName>
+  <description>ОтправкаСтатистики</description>
+  <key>ОтправкаСтатистики</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6529b20-9fe0-4e83-854d-e3f6f2439804">
+  <producedTypes>
+    <objectType typeId="3e3c9519-9f45-482b-9c5a-52ac4ac9bce0" valueTypeId="b9cbfefa-4b5a-45b8-9606-4781221f713c"/>
+    <managerType typeId="118689b3-a737-49bd-9a71-91ffcace1ee4" valueTypeId="1177fa06-cafe-4785-98ec-d584d33cfd9a"/>
+  </producedTypes>
+  <name>Расшифровка_движения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список документов движения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Расшифровка_движения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="60132b70-0ff9-4574-a666-f252ad1ea378">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

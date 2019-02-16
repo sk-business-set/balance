@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d917d152-f466-4199-9f50-c34554eb1602">
+  <producedTypes>
+    <managerType typeId="94fc95e3-e01e-4408-9d13-8f940df692fd" valueTypeId="654fea00-1aa2-41d4-882d-5eec2030e6f2"/>
+    <valueManagerType typeId="bb215214-673d-41e4-921d-40bdc709826f" valueTypeId="70673751-a9d3-4d73-99cc-43b3102c79da"/>
+  </producedTypes>
+  <name>ПодразделениеВводОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделение для ввода остатков</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Подразделения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

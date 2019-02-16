@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="571c0200-8c40-4f62-bf8a-58d059043db4">
+  <producedTypes>
+    <managerType typeId="92ab68d7-6f7f-4815-b079-d6b597533634" valueTypeId="fd1342a2-00c7-410d-804b-391c6468fe7e"/>
+    <valueManagerType typeId="b7cea73e-3c90-4628-a406-e180d8e60e3e" valueTypeId="b0a305f9-e1c8-475c-8128-6cbbe328dbe1"/>
+  </producedTypes>
+  <name>СтатьяДвиженияВводОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья движения для ввода остатков</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.СтатьиДвижения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

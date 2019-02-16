@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1396571-784f-45e0-90e6-3b181462e514">
+  <producedTypes>
+    <managerType typeId="a3bdd646-5e03-42ea-b120-310dfba39ce1" valueTypeId="e1374052-533c-4157-8f39-29cf417f04e3"/>
+    <valueManagerType typeId="808df534-af26-465f-b12f-a7802b5e5635" valueTypeId="2cbe8695-5433-4517-af23-a352f16e55a6"/>
+  </producedTypes>
+  <name>МультивалютныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мультивалютный учет</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

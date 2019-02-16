@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2757e926-5de7-4299-b9c2-28f002dda13d">
+  <producedTypes>
+    <objectType typeId="eff1d993-c6b3-4abe-b537-2da19cda52c4" valueTypeId="c71c9f26-edb5-425e-b9ad-07909f2d08fe"/>
+    <refType typeId="4f6f468d-6f92-41c9-9f95-56a8d387a903" valueTypeId="1db26d37-7b3c-4198-9fc6-0555218fe513"/>
+    <selectionType typeId="9a72243d-69da-491a-b9a8-8f71bb717e26" valueTypeId="8cb0df37-0fa1-4e87-8c48-35c2761b12ea"/>
+    <listType typeId="9ff425da-758f-4de3-9f0d-7597d29d3c1a" valueTypeId="feea0d37-2ffd-4f5e-a0fe-5d8a16095f38"/>
+    <managerType typeId="3d262aaf-86db-47e8-9cff-5772bac6078d" valueTypeId="b17e0693-3781-4898-9d81-dfd1451a88d9"/>
+  </producedTypes>
+  <name>СтатьиДвижения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДвижения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДвижения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <subordinationUse>ToFoldersAndItems</subordinationUse>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="01f354c5-9c47-41e7-a133-be6542d86620">
+      <name>ДенежныеСредства</name>
+      <description>Денежные cредства</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a8ddb2a1-42f4-4227-92f6-1c339a5c3925">
+      <name>Прибыль</name>
+      <description>Прибыль</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиДвижения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.СтатьиДвижения.Form.ФормаЭлемента</defaultFolderForm>
+  <defaultListForm>Catalog.СтатьиДвижения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатьиДвижения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="447c2059-bb0c-4dbe-b1ab-3d89d3e6d07c">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="466277c0-0243-4790-8c2a-5bcbfb53bb6e">
+    <name>СчетУчетаДт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета ДТ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfAccountsRef.Внутренний</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="930a51ec-d178-4346-98bc-12788e9bd306">
+    <name>СчетУчетаКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета КТ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfAccountsRef.Внутренний</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b4487848-faf5-479e-b7bc-116fa325e93a">
+    <name>РазделДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел ДДС</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.РазделыДДС</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="15ae4fc9-17ca-4663-a6d7-f41528322873">
+    <name>РазделОПиУДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел ОПиУ доход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РазделыОПиУ</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa36cb44-0020-4bd3-854b-2f9676925310">
+    <name>РазделОПиУРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел ОПиУ расход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.РазделыОПиУ</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0d7da55-a323-44f2-ad2d-d979c3d1678a">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта учета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2ac4508-a8a7-4f91-8f9e-7ce4721fddf3">
+    <name>КодБаланс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код баланс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aafaaee0-d065-4033-9cea-3080bc52066c">
+    <name>ПолныйПуть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный путь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7bc1a28a-18cf-479e-8ddd-2eec97b50dcd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11cdc045-96f3-4ae0-a206-89de8be7b392">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="233da4f0-4349-40a5-a96d-22e6de529d60">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc645f64-a2f1-49d0-b106-13b642678a7c">
+    <name>ШаблоныГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны групп</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

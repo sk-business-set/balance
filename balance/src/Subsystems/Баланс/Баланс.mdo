@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de52cbc7-8ebc-4092-9b44-08b4998b417f">
+  <name>Баланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Баланс</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.Баланс</content>
+  <content>Catalog.СтатьиДвижения</content>
+  <content>AccumulationRegister.Движения</content>
+  <content>Document.Движения</content>
+  <content>Catalog.Подразделения</content>
+  <content>DataProcessor.РМОператора</content>
+  <content>Report.ДДС</content>
+  <content>InformationRegister.СозданныеБыстрыеДвижения</content>
+  <content>FunctionalOption.МультивалютныйУчет</content>
+  <content>HTTPService.MonthlyBalances</content>
+</mdclass:Subsystem>

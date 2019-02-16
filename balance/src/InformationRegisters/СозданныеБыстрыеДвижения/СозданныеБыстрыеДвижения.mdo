@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9b9eaee-e667-43a7-919f-242641c99d0a">
+  <producedTypes>
+    <selectionType typeId="4a8321ee-4e13-48e5-aeff-d3323edf3425" valueTypeId="afa2c438-a195-4ca0-9f2a-46b728204824"/>
+    <listType typeId="dc3bf6d8-5701-4296-8e3d-c23a5b954b82" valueTypeId="21ad6822-86a0-4c6b-a4e3-fdd21e689e46"/>
+    <managerType typeId="8b97edc6-974a-4d8f-9ffb-36bc381ad81c" valueTypeId="656f5bf9-7a51-4d88-b03f-fe51d456329f"/>
+    <recordSetType typeId="fc3d1d8b-1cac-49f5-99e9-1ae7346c239c" valueTypeId="e04b5417-34f0-4e5d-ba7d-ac3be4c8f6b6"/>
+    <recordKeyType typeId="49d92e90-8a0f-4d99-a61e-1de6a42260a5" valueTypeId="afcc79ea-1f68-4033-9b44-a1c67ea07bb0"/>
+    <recordType typeId="df850756-3eb0-4e2b-8ead-0d4ee72d1865" valueTypeId="b52f3998-afd5-4936-86c3-cb7dbbc9b823"/>
+    <recordManagerType typeId="fb9378b1-0ef2-41d1-99ac-2788f34d3584" valueTypeId="9250c3d5-c550-42e9-83f5-9baf79c401a7"/>
+  </producedTypes>
+  <name>СозданныеБыстрыеДвижения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Созданные быстрые движения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="67f14d0c-6cf7-4c30-a48b-6726607e6440">
+    <name>НомерБыстрогоДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер быстрого движения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>9</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="43bfb40a-dc5a-4b33-8165-83391a897662">
+    <name>ПредставлениеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление номера</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="fc633c74-23cd-492e-993a-15094a94ba6f">
+    <name>БыстроеДвижение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрое движение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Шаблоны</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9b42bfaa-c2ad-4fe9-9f68-15a640d1c17e">
+    <name>Движение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.Движения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

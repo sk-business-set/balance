@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c479696f-3cdb-4fcd-a79f-18d11e239379">
+  <name>Спр_Основные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.ГруппыДоступаОформления</content>
+  <content>InformationRegister.СоставГруппыДоступа</content>
+  <content>InformationRegister.СоставГруппыОформления</content>
+  <content>InformationRegister.ПользователиГруппыДО</content>
+  <content>DataProcessor.УстановитьСоставГруппыДО</content>
+  <content>DataProcessor.УстановитьНастройкиПользователя</content>
+  <content>InformationRegister.НастройкиПользователя</content>
+  <content>DataProcessor.МастерНастройки</content>
+  <content>InformationRegister.СоставГруппыДоступаКПапкам</content>
+  <parentSubsystem>Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>

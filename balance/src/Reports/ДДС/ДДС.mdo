@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aa7c867-eb54-4c24-8767-61c2db079f3b">
+  <producedTypes>
+    <objectType typeId="00833cc8-9141-4739-87c0-4c3f263ce561" valueTypeId="75362049-9ca6-4024-8b87-f78158dc6747"/>
+    <managerType typeId="3e74078f-636f-428e-b9c8-d92d3885f1c8" valueTypeId="9ea611e9-4187-4ada-8f4f-45000212825f"/>
+  </producedTypes>
+  <name>ДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДДС</value>
+  </synonym>
+  <comment>Движение Денежных Средств</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДДС.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДДС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="3d56b44a-a993-4ee1-a615-8f831667a6ef">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="95f39896-c72b-4425-ab7d-8fc6cd2f2222">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

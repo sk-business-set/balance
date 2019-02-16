@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08bf0465-e768-4f53-b628-8e4342b999d3">
+  <producedTypes>
+    <objectType typeId="1cc7f870-4cdb-4342-8c3d-a1ac98dc0df9" valueTypeId="fa348661-b84d-4d32-a34e-80a5a36f52be"/>
+    <managerType typeId="379dc1d8-c749-4bf5-8fad-3902bd0855ad" valueTypeId="de0620e4-c326-4e8b-8753-00749e9ed283"/>
+  </producedTypes>
+  <name>ИнтерфейсКоманды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс команды</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтерфейсКоманды.Form.Настройки</defaultForm>
+  <forms uuid="5a8524fb-e346-47da-ab8a-b44894aaa876">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="45e6ee68-5348-4fbb-af20-a7f4a1df9390">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

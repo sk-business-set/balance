@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b5699b9-8840-4702-b5b5-b49b172e9af6">
+  <name>MonthlyBalances</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по месяцам</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>MonthlyBalances</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="6449ad81-704b-410c-a147-ca0b7bdac20b">
+    <name>ПолучитьОстаткиПоМесяцам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить остатки по месяцам</value>
+    </synonym>
+    <comment></comment>
+    <template>/list</template>
+    <methods uuid="a2166aaf-ef99-4157-b28f-423f3a780761">
+      <name>getBalances</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get balances</value>
+      </synonym>
+      <comment></comment>
+      <handler>ПолучитьОстаткиПоМесяцамgetBalances</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

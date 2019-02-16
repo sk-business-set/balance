@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72de7f1b-2f0a-43e7-856a-01dfe94aa5ac">
+  <producedTypes>
+    <refType typeId="0474cc19-d04a-4df6-9d95-522a1cb6272b" valueTypeId="101fb8c6-7dbc-4dda-a932-7a3101e0e673"/>
+    <listType typeId="acf8e7cc-e95c-44f4-b9cd-8c1c65ba8fe7" valueTypeId="e7e0b66a-f8b0-411b-88d4-b463e0243ef0"/>
+    <managerType typeId="de613d23-698d-40f8-908d-125273ec822d" valueTypeId="d862374e-02e7-4438-a4ae-ba0e626f348e"/>
+  </producedTypes>
+  <name>РазделыДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы ДДС</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="69e53f79-48d9-4dd8-a7cc-73230c3e1757">
+    <name>ОперационнаяДеятельность</name>
+    <synonym>
+      <key>ru</key>
+      <value>1. Операционная деятельность</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1a96ed49-286a-4797-8cb5-a7095e16a1f3">
+    <name>ИнвестиционнаяДеятельность</name>
+    <synonym>
+      <key>ru</key>
+      <value>2. Инвестиционная деятельность</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f57587e1-f636-41f6-b44f-e7b124926bf9">
+    <name>ФинансоваяДеятельность</name>
+    <synonym>
+      <key>ru</key>
+      <value>3. Финансовая деятельность</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d740c846-64c1-4e9a-ba3c-e51540f86b19">
+  <producedTypes>
+    <objectType typeId="105c8ef4-9130-400e-bd98-c1f00a18ce3d" valueTypeId="389adb40-2371-4253-81fe-affe2cf99898"/>
+    <managerType typeId="403d0711-644f-458e-9d0d-d4e614d58e3d" valueTypeId="00c90bfa-0233-428c-95c7-11c6187447f7"/>
+  </producedTypes>
+  <name>РМОператора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РМОператора.Form.Форма</defaultForm>
+  <forms uuid="b56a22f2-7812-459d-a9f4-0c6267308221">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97a0472f-30ee-4544-9cf9-a9845309cebe">
+    <name>ФормаСозданияДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания движения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3f19af4e-667d-412f-b14d-736ba59a88bc">
+    <name>РМОператора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

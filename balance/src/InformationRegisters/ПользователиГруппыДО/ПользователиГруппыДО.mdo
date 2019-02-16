@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="365babcc-a0be-4b98-9494-a6d0bd94f55f">
+  <producedTypes>
+    <selectionType typeId="eb129109-c9c3-4995-862e-58da8361b2a6" valueTypeId="332215c0-1992-476b-b073-0981032fc1ad"/>
+    <listType typeId="feb570eb-1276-41be-96b4-647403a5e226" valueTypeId="0926f83d-fad0-4db2-822e-412d96f9dc27"/>
+    <managerType typeId="426d0a73-b003-4ed3-a01d-8ed58cad7176" valueTypeId="16e755bf-a1b4-4197-8e69-8650a2c0201c"/>
+    <recordSetType typeId="04a89283-4356-4654-bbc0-4b2577d8c497" valueTypeId="b5d97f4a-5e8b-4836-ad3d-ec7c86db4109"/>
+    <recordKeyType typeId="42112018-05cf-4c57-9ee5-e44e0a98442f" valueTypeId="cd77f4c6-8b7a-44ee-bea5-3ebd5a04aaae"/>
+    <recordType typeId="ce7d01d0-926d-4960-9f96-6d57c4290dc0" valueTypeId="a68f4b61-553d-4fd5-b478-140ce704e065"/>
+    <recordManagerType typeId="9b79537d-0f30-4e4f-8662-9c95789307ed" valueTypeId="86980ae2-7e82-47d2-80dd-16c81d51280e"/>
+  </producedTypes>
+  <name>ПользователиГруппыДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи группы ДО</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="afc96e3c-e85c-4156-bb60-ca50ba7064be">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d6c8490a-18bc-4254-8433-a299bd47d436">
+    <name>ГруппаДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа ДО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГруппыДоступаОформления</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

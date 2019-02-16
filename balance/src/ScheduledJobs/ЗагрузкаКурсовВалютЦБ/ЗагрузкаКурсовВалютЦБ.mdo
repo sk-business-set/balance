@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ab66920-ddcb-453a-a411-298f31b58b2f">
+  <name>ЗагрузкаКурсовВалютЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют с сайта ЦБ</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.РаботаСВалютойСлужебный.ЗагрузитьАктуальныеКурсыЦБ</methodName>
+  <description>Загрузка курсов валют с сайта ЦБ</description>
+  <key></key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

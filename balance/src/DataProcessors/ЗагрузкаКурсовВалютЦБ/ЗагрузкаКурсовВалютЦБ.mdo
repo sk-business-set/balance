@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1156d29-dd9a-455c-9db3-02be6494c9a3">
+  <producedTypes>
+    <objectType typeId="0cc96437-c632-455d-beab-57392d3a1d62" valueTypeId="ceb70e82-a777-43d7-a455-817165477469"/>
+    <managerType typeId="9412c517-353b-4f0d-8f86-a595a133a870" valueTypeId="a56c986c-5941-4885-8d70-d189bad1a7b8"/>
+  </producedTypes>
+  <name>ЗагрузкаКурсовВалютЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка курсов валют с сайта ЦБ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКурсовВалютЦБ.Form.Форма</defaultForm>
+  <attributes uuid="7b241665-b266-4453-ac60-d513d0d67ba8">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82108f6e-c4bd-44fc-85b5-7569d59b6742">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb413b78-c09d-48df-91fd-f74f027b0d5e">
+    <name>ТипЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип загрузки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="04f50b3a-8436-4d28-b29e-29e5021502e2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d47cbf1-512d-48ed-b33d-12d4e5ef5cf6">
+  <name>СоставГруппыДоступаОформления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав группы</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.ГруппыДоступаОформления</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16570a3f-38d3-49c2-93b9-f06a3e319dec">
+  <producedTypes>
+    <objectType typeId="41f819b6-b4a8-4ca9-9fbf-a47b62114604" valueTypeId="5a5a742d-9617-4fc2-9cf1-6a1099f32566"/>
+    <managerType typeId="96d67a83-da29-40fe-8782-d3106c244a23" valueTypeId="01575f8b-5777-4984-be18-4c7fa4748aef"/>
+  </producedTypes>
+  <name>Баланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Баланс.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="44427e98-cd50-4555-9c49-a359a6c52496">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
