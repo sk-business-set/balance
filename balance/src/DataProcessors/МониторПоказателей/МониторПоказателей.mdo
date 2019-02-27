@@ -23,10 +23,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="347782be-e2cf-4a41-af22-acf1d185f30f">
-    <name>ФормаДетальнойРаботы</name>
+    <name>ФормаДетальнойРаботы1</name>
     <synonym>
       <key>ru</key>
-      <value>Форма детальной работы</value>
+      <value>Форма детальной работы1</value>
     </synonym>
     <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>

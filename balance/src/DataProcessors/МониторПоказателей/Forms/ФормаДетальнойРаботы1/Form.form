@@ -15,6 +15,18 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>CustomizeForm</excludedCommands>
+  <excludedCommands>Close</excludedCommands>
+  <excludedCommands>OK</excludedCommands>
+  <excludedCommands>Cancel</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
+  <excludedCommands>No</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>Abort</excludedCommands>
+  <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>RestoreValues</excludedCommands>
+  <excludedCommands>Help</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
