@@ -26,5 +26,14 @@
       <comment></comment>
       <handler>ПолучитьОстаткиПоМесяцамgetBalances</handler>
     </methods>
+    <methods uuid="a92f5364-6123-436c-9857-764690a812c6">
+      <name>Optionsbalances</name>
+      <synonym>
+        <key>ru</key>
+        <value>Optionsbalances</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>ПолучитьОстаткиПоМесяцамOptionsbalances</handler>
+    </methods>
   </urlTemplates>
 </mdclass:HTTPService>
