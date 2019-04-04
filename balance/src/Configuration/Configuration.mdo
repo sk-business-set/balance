@@ -980,6 +980,7 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <webServices>WebService.MessageExchange</webServices>
   <webServices>WebService.MessageExchange_2_0_1_6</webServices>
+  <httpServices>HTTPService.Docs</httpServices>
   <httpServices>HTTPService.MonthlyBalances</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>

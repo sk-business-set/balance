@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7757cce5-270b-4f25-bdcf-0c8df70d1b00">
+  <name>Docs</name>
+  <synonym>
+    <key>ru</key>
+    <value>Docs</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>Docs</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="b8cd4735-3600-4e3c-9492-4d28075c7b20">
+    <name>Temlate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Temlate</value>
+    </synonym>
+    <comment></comment>
+    <template>/{user}</template>
+    <methods uuid="3eb3761b-868c-4308-bddd-955ba6edc472">
+      <name>GetTemp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get temp</value>
+      </synonym>
+      <comment></comment>
+      <handler>TemlateGetTemp</handler>
+    </methods>
+    <methods uuid="05301928-3001-458d-96c6-c28090a50106">
+      <name>PostTemp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post temp</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>TemlatePostTemp</handler>
+    </methods>
+    <methods uuid="d755b801-d531-4255-a618-4e09bc513e22">
+      <name>OptionsTemp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Options temp</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>TemlateOptionsTemp</handler>
+    </methods>
+    <methods uuid="6419aee0-076b-4a1c-b66d-562c72f1f40e">
+      <name>PathTemp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Path temp</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>PATCH</httpMethod>
+      <handler>TemlatePathTemp</handler>
+    </methods>
+    <methods uuid="2de80cd4-53ac-4a8d-972f-4f9c37ed396c">
+      <name>PutTemp</name>
+      <synonym>
+        <key>ru</key>
+        <value>Put temp</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>PUT</httpMethod>
+      <handler>TemlatePutTemp</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
